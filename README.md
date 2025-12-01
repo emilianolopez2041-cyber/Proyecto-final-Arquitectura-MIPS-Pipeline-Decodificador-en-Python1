@@ -149,8 +149,6 @@ python mips_decoder_cli.py programa.asm instrucciones.txt
 ### Opción 3: Versión Web
 Abrir `Decodificador_MIPS.html` en cualquier navegador.
 
-## Diagrama de Bloques
-
 El procesador está basado en la arquitectura del libro:
 > Patterson, D. A., & Hennessy, J. L. (2014). *Computer Organization and Design: The Hardware/Software Interface* (5th ed.). Morgan Kaufmann. Figura 4.51.
 

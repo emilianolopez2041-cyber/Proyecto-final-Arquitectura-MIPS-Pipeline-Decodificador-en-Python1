@@ -98,35 +98,14 @@ El proyecto incluye:
 |-------------|--------|-----------|
 | `j` | 000010 | PC = address |
 
-## 🧪 Programa de Prueba: Algoritmo Voraz
-
-El programa implementa el **Problema del Cambio de Monedas** usando estrategia Greedy:
-
-```assembly
-# Entrada: 47 centavos
-# Monedas: [25, 10, 5, 1]
-# Salida: 5 monedas (1×25 + 2×10 + 0×5 + 2×1)
-```
 
 ### Características:
 - Algoritmo **voraz (greedy)**
 - **No recursivo** (usa bucles)
 -  Usa instrucciones tipo **J** (jump)
 
-## Cómo Ejecutar
 
-### 1. Compilar en Icarus Verilog
-```bash
-iverilog -o mips_sim *.v
-vvp mips_sim
-```
-
-### 2. Ver waveforms en GTKWave
-```bash
-gtkwave tb_MIPS_Pipeline.vcd
-```
-
-### 3. Compilar en ModelSim
+3. Compilar en ModelSim
 ```tcl
 vlog *.v
 vsim -voptargs=+acc work.tb_MIPS_Pipeline
@@ -152,6 +131,6 @@ Abrir `Decodificador_MIPS.html` en cualquier navegador.
 El procesador está basado en la arquitectura del libro:
 > Patterson, D. A., & Hennessy, J. L. (2014). *Computer Organization and Design: The Hardware/Software Interface* (5th ed.). Morgan Kaufmann. Figura 4.51.
 
-## 📄 Licencia
+##  Licencia
 
 Este proyecto es de uso académico.
